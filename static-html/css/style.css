@@ -8,7 +8,8 @@
 }
 
 .description,
-.fa-edit {
+.fa-edit,
+.home {
 	display: none;
 }
 
@@ -37,6 +38,10 @@ header h1 {
 	text-align: center;
 	font-size: 2rem;
 	padding: 1rem 0;
+}
+
+.create h1 {
+	padding: 2.5rem 0;
 }
 
 .sub-head {
@@ -101,6 +106,9 @@ main {
 	overflow-y: scroll;
 }
 
+/* ***************************
+      Home Section
+*******************************/
 .heading {
 	display: flex;
 	justify-content: space-between;
@@ -159,6 +167,117 @@ a {
 .des-p {
 	font-size: 1.1rem;
 	line-height: 1.8rem;
+}
+
+/* ********************************
+        Create and Edit Form
+************************************/
+#input-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin-top: 1.8rem;
+}
+
+#input-form input {
+	width: 70%;
+	line-height: 2rem;
+	font-size: 1.1rem;
+	margin: 0 0 1rem 1rem;
+	padding-left: 1rem;
+	border: 0;
+	border-radius: 2rem;
+	outline: none;
+	color: #f2e3b6;
+	background: linear-gradient(
+		to right bottom,
+		#0d0b0c,
+		#262526,
+		#59514f,
+		#262526,
+		#0d0b0c
+	);
+}
+
+#input-form ::placeholder {
+	color: rgba(252, 247, 247, 0.507);
+}
+
+#rank {
+	width: 40%;
+	font-size: 1.3rem;
+	padding: 0.2rem 2rem 0.2rem 3rem;
+	margin: 0 0 1rem 1rem;
+	border: 0;
+	cursor: pointer;
+	outline: none;
+	clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 0 100%, 0 0);
+	background: linear-gradient(
+		to right bottom,
+		var(--gold-4),
+		var(--gold-1),
+		var(--gold-2),
+		var(--gold-3),
+		var(--gold-2),
+		var(--gold-1),
+		var(--gold-4)
+	);
+}
+
+#rank option {
+	background-color: #59514f;
+	color: #f2e3b6;
+}
+
+#web-des {
+	width: 90%;
+	height: 30vh;
+	font-size: 1.5rem;
+	line-height: 1.8rem;
+	text-align: left;
+	padding: 0.5rem 0 0.5rem 1rem;
+	margin: 0 0 1rem 1rem;
+	outline: none;
+	border: 0;
+	border-radius: 1rem;
+	color: #f2e3b6;
+	background: linear-gradient(
+		to right bottom,
+		#0d0b0c,
+		#262526,
+		#59514f,
+		#262526,
+		#0d0b0c
+	);
+}
+
+.input-btn {
+	width: 90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#input-form input[type='submit'],
+#input-form input[type='reset'] {
+	width: 8rem;
+	color: black;
+	font-size: 1.2rem;
+	font-weight: 700;
+	cursor: pointer;
+	box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+	background: linear-gradient(
+		to right bottom,
+		var(--gold-4),
+		var(--gold-1),
+		var(--gold-2),
+		var(--gold-3),
+		var(--gold-2),
+		var(--gold-1),
+		var(--gold-4)
+	);
 }
 
 /* ********************************
