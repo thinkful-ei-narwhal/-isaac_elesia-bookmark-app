@@ -3,7 +3,228 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+
+		<!-- Meyer reset -->
+		<link
+			rel="stylesheet"
+			href="https://meyerweb.com/eric/tools/css/reset/reset.css"
+		/>
+
+		<!-- Font Awesome -->
+		<link rel="stylesheet" href="./css/all.min.css" />
+		<link rel="stylesheet" href="./css/fontawesome.min.css" />
+
+		<!-- My CSS Style -->
+		<link rel="stylesheet" href="./css/style.css" />
+
+		<title>Bookmarks App</title>
 	</head>
-	<body></body>
+	<body>
+		<header>
+			<h1>My Bookmarks</h1>
+			<div class="sub-head">
+				<button class="btn-new">New</button>
+				<select name="filter" id="filter">
+					<option value="">Filter By</option>
+					<option value="4">4 stars</option>
+					<option value="5">5 stars</option>
+					<option value="3">3 stars</option>
+					<option value="2">2 stars</option>
+					<option value="1">1 star</option>
+				</select>
+			</div>
+		</header>
+
+		<main class="scrollbar">
+			<div class="bookmark">
+				<div class="heading">
+					<a href="#" class="more"><h3>Tile 1</h3></a>
+					<div class="modify">
+						<i class="fas fa-edit"></i>
+						<i class="fas fa-trash-alt"></i>
+					</div>
+				</div>
+
+				<div class="stars">
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star"></i>
+				</div>
+
+				<div class="description show">
+					<div class="des-heading">
+						<a href="#" class="url">Visit Site</a>
+					</div>
+					<p class="des-p">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+						voluptates dicta hic quaerat inventore delectus distinctio omnis.
+						Numquam recusandae similique mollitia quibusdam rem alias delectus
+						quia. Nesciunt cupiditate illo similique magnam eaque quaerat?
+						Cupiditate quas eligendi mollitia rem ipsum ullam praesentium, earum
+						cumque impedit vitae! Asperiores a sapiente alias natus.
+					</p>
+				</div>
+			</div>
+
+			<div class="bookmark">
+				<div class="heading">
+					<a href="#" class="more"><h3>Tile 134</h3></a>
+					<div class="modify">
+						<i class="fas fa-edit"></i>
+						<i class="fas fa-trash-alt"></i>
+					</div>
+				</div>
+
+				<div class="stars">
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star"></i>
+				</div>
+
+				<div class="description">
+					<div class="des-heading">
+						<a href="#" class="url">Visit Site</a>
+					</div>
+					<p class="des-p">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+						voluptates dicta hic quaerat inventore delectus distinctio omnis.
+						Numquam recusandae similique mollitia quibusdam rem alias delectus
+						quia. Nesciunt cupiditate illo similique magnam eaque quaerat?
+						Cupiditate quas
+					</p>
+				</div>
+			</div>
+
+			<div class="bookmark">
+				<div class="heading">
+					<a href="#" class="more"><h3>Tile 343</h3></a>
+					<div class="modify">
+						<i class="fas fa-edit"></i>
+						<i class="fas fa-trash-alt"></i>
+					</div>
+				</div>
+
+				<div class="stars">
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star"></i>
+				</div>
+
+				<div class="description">
+					<div class="des-heading">
+						<a href="#" class="url">Visit Site</a>
+					</div>
+					<p class="des-p">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+						voluptates dicta hic quaerat inventore delectus distinctio omnis.
+						Numquam recusandae similique mollitia quibusdam rem alias delectus
+						quia. Nesciunt cupiditate illo similique magnam eaque quaerat?
+						Cupiditate quas eligendi mollitia rem ipsum ullam praesentium, earum
+						cumque impedit vitae! Asperiores a sapiente alias natus.eligendi
+						mollitia rem ipsum ullam praesentium, earum cumque impedit vitae!
+						Asperiores a sapiente alias natus.
+					</p>
+				</div>
+			</div>
+
+			<div class="bookmark">
+				<div class="heading">
+					<a href="#" class="more"><h3>Tile Asperiores</h3></a>
+					<div class="modify">
+						<i class="fas fa-edit"></i>
+						<i class="fas fa-trash-alt"></i>
+					</div>
+				</div>
+
+				<div class="stars">
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star"></i>
+				</div>
+
+				<div class="description">
+					<div class="des-heading">
+						<a href="#" class="url">Visit Site</a>
+					</div>
+					<p class="des-p">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+						voluptates dicta hic quaerat inventore delectus distinctio omnis.
+						Numquam recusandae similique mollitia quibusdam rem alias delectus
+						quia. Nesciunt cupiditate illo similique magnam eaque quaerat?
+						Cupiditate quas eligendi mollitia rem ipsum ullam praesentium, earum
+						cumque impedit vitae! Asperiores a sapiente alias natus.
+					</p>
+				</div>
+			</div>
+
+			<div class="bookmark">
+				<div class="heading">
+					<a href="#" class="more"><h3>mollitia rem ipsum</h3></a>
+					<div class="modify">
+						<i class="fas fa-edit"></i>
+						<i class="fas fa-trash-alt"></i>
+					</div>
+				</div>
+
+				<div class="stars">
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star"></i>
+				</div>
+
+				<div class="description">
+					<div class="des-heading">
+						<a href="#" class="url">Visit Site</a>
+					</div>
+					<p class="des-p">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+						voluptates dicta hic quaerat inventore delectus distinctio omnis.
+						Numquam recusandae similique mollitia quibusdam rem
+					</p>
+				</div>
+			</div>
+
+			<div class="bookmark">
+				<div class="heading">
+					<a href="#" class="more"><h3>consectetur adipisicing elit</h3></a>
+					<div class="modify">
+						<i class="fas fa-edit"></i>
+						<i class="fas fa-trash-alt"></i>
+					</div>
+				</div>
+
+				<div class="stars">
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star gold"></i>
+					<i class="fas fa-star"></i>
+				</div>
+
+				<div class="description">
+					<div class="des-heading">
+						<a href="#" class="url">Visit Site</a>
+					</div>
+					<p class="des-p">
+						Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+						voluptates dicta hic quaerat inventore delectus distinctio omnis.
+						Numquam recusandae similique mollitia quibusdam rem alias delectus
+						quia. Nesciunt cupiditate illo similique magnam eaque quaerat?
+						Cupiditate quas eligendi mollitia rem ipsum ullam praesentium, earum
+						cumque impedit vitae! Asperiores a sapiente alias natus.
+					</p>
+				</div>
+			</div>
+		</main>
+	</body>
 </html>
