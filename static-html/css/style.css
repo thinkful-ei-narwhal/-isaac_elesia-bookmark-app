@@ -9,7 +9,7 @@
 
 .description,
 .fa-edit,
-.home {
+.create {
 	display: none;
 }
 
@@ -40,7 +40,7 @@ header h1 {
 	padding: 1rem 0;
 }
 
-.create h1 {
+.create-h1 {
 	padding: 2.5rem 0;
 }
 
