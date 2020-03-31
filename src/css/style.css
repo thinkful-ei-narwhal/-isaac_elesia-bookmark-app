@@ -408,6 +408,11 @@ a {
 		font-size: 1rem;
 		padding: 0.2rem 0.5rem 0.2rem 1rem;
 	}
+
+	.error-content {
+		width: 90%;
+		height: 20vh;
+	}
 }
 
 @media (min-width: 760px) {
