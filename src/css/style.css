@@ -159,6 +159,28 @@ main {
 	font-size: 1.3rem;
 }
 
+.heading a {
+	width: 60%;
+}
+.edit-trash-icons {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 40%;
+}
+
+.fa-edit,
+.fa-trash-alt {
+	cursor: pointer;
+}
+.fa-edit {
+	margin-right: 1rem;
+}
+
+.heading a:hover {
+	background-color: rgba(163, 161, 161, 0.644);
+}
+
 a {
 	font-weight: 700;
 	text-decoration: none;
@@ -176,13 +198,6 @@ a {
 	color: var(--gold-1);
 }
 
-.fa-edit,
-.fa-trash-alt {
-	cursor: pointer;
-}
-.fa-edit {
-	margin-right: 2rem;
-}
 /* ********************************
           Description
 ************************************/
@@ -370,7 +385,7 @@ a {
 @media (min-width: 320px) {
 	header,
 	main {
-		width: 95%;
+		width: 90%;
 	}
 
 	#filter {

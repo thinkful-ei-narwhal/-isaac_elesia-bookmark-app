@@ -68,8 +68,8 @@ ${bookmark.desc}
 
 		return `<div class="bookmark" id="${bookmark.id}">
   <div class="heading">
-    <a href="#" class="more"><h3>${bookmark.title}</h3></a>
-   ${editTrash}
+		<a href="#" class="more"><h3>${bookmark.title}</h3></a>
+		<div class= "edit-trash-icons">${editTrash}</div>
   </div>
 
   <div class="stars">
