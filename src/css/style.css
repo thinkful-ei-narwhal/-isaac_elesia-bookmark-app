@@ -368,6 +368,11 @@ a {
 **************************************/
 
 @media (min-width: 320px) {
+	header,
+	main {
+		width: 95%;
+	}
+
 	#filter {
 		font-size: 1.1rem;
 		padding: 0.3rem 0.5rem 0.3rem 0.5rem;
