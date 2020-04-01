@@ -187,7 +187,7 @@ const render = () => {
 	$('header').html(generateHeader(store));
 
 	// Render page Main Content
-	if (bookmarks.length !== 0 && store.adding === false) {
+	if (bookmarks.length && !store.adding) {
 		$('main').addClass('show-main');
 		$('main').html(generateMainContent(bookmarks));
 	} else {
@@ -285,7 +285,7 @@ const getBookmarkIdFromElement = bookmark => {
 		.attr('id');
 };
 
-const handlegenerateBokmarkForm = () => {
+const handleGenerateBookmarkForm = () => {
 	$('header').on('click', '.btn-new', () => {
 		store.adding = true;
 		render();
@@ -350,7 +350,7 @@ const toggleDescription = () => {
 const bindEventListeners = () => {
 	handleCreateOrUpdateBookmarkSubmit();
 	handleCreateOrUpdateBookmarkCancel();
-	handlegenerateBokmarkForm();
+	handleGenerateBookmarkForm();
 	handleUpdateBookmarkForm();
 	handleDeleteBookmarkClicked();
 	handleFilterByRating();
